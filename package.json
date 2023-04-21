@@ -1,0 +1,44 @@
+{
+  "name": "nest-watchman",
+  "version": "1.0.2",
+  "description": "send your errors to webhook",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "format": "prettier --write \"**/*.ts\"",
+    "--prepublish": "npm prune --production",
+    "publish": "npm publish --access public ."
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "webhook",
+    "watchman",
+    "errorcatcher",
+    "nestjs"
+  ],
+  "author": "Em",
+  "license": "MIT",
+  "peerDependencies": {
+    "@nestjs/common": "^8.2.0",
+    "@nestjs/core": "^8.2.0"
+  },
+  "dependencies": {
+    "@nestjs/axios": "0.0.3",
+    "@nestjs/common": "^8.2.0",
+    "@nestjs/core": "^8.2.0",
+    "discord.js": "^14.9.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.4.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^16.11.7",
+    "prettier": "^2.4.1",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}
