@@ -6,7 +6,7 @@
 
 ## Description
 
-[Watchman](https://github.com/nestjs/nest) is an error cather for Nest framework.
+[Watchman](https://github.com/devcodenix/nest-watchman) is an error cather for Nest framework.
 
 ## Installation
 
@@ -46,7 +46,7 @@ _you don't need to pass `host` here_
 ## Module Configuration
 ### Main config properties
 - `strategy`
-    - you can use the [ base strategies ](https://github.com/nestjs/nest) that provided by us, it has default message structure, and you don't have to do anything about it, or you can use a [custom strategy](https://github.com/nestjs/nest)
+    - you can use the [ default strategies ](#strategies) that provided by us, it has default message structure, and you don't have to do anything about it, or you can use a [custom strategy](#custom-strategy)
 - `catchOnlyInternalExceptions`
     - if you pass `true` Watchman will catch only the internal server errors. `default=false`
 - `strategyConfig`
