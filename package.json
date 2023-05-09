@@ -1,6 +1,6 @@
 {
   "name": "@devcodenix/nest-watchman",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "send your errors to webhook",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
