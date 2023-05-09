@@ -1,5 +1,5 @@
 {
-  "name": "@devcodenix/nest-watchman",
+  "name": "@dev-codenix/nest-watchman",
   "version": "1.0.0",
   "description": "send your errors to webhook",
   "main": "dist/index.js",
@@ -43,10 +43,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devcodenix/nest-watchman.git"
+    "url": "git+https://github.com/dev-codenix/nest-watchman.git"
   },
   "bugs": {
-    "url": "https://github.com/devcodenix/nest-watchman/issues"
+    "url": "https://github.com/dev-codenix/nest-watchman/issues"
   },
-  "homepage": "https://github.com/devcodenix/nest-watchman#readme"
+  "homepage": "https://github.com/dev-codenix/nest-watchman#readme"
 }
