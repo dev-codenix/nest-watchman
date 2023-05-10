@@ -11,7 +11,7 @@
 ## Installation
 
 ```bash
-$ npm install @devcodenix/nest-watchman
+$ npm install @dev-codenix/nest-watchman --save
 ```
 ## Usage
 #### in ExceptionFilter 
